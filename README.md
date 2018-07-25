@@ -17,7 +17,7 @@ Para dar respuesta a la primera parte:
 5) Durante el aprovisionamiento con vagrant, con comandos de ansible-playbook local instalaré docker engine.
 
 Para dar respuesta a la segunda parte:
-6) Ya teniendo la maquina operativa (ubuntu 16.04) con ansible instalaré docker compose
+6) Ya teniendo la maquina operativa (ubuntu 16.04) con ansible instalaré docker compose.
 7) Teniendo todos los archivos de configuracion, con ansible gatillaré la ejecucion de docker compose.
 8) Al gatillar la ejecucion de docker compose desplegaré una aplicacion web con phython a partir de una imagen docker.
 
