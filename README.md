@@ -21,8 +21,9 @@ Para dar respuesta a la segunda parte:
 - Teniendo todos los archivos de configuracion, con ansible gatillaré la ejecucion de docker compose.
 - Al gatillar la ejecucion de docker compose desplegaré una aplicacion web con phython a partir de una imagen docker.
 
-La estructura de los archivos para reproducir el escenario esta en la imagen:
+La estructura de los archivos para reproducir el escenario estan en las imagenes:
+- Estructura vagrant: Carpeta principal donde van alojados todos los archivos.
+- Estructura archivos sharedfiles: carpera compartida, donde se alojan los archivos necesarios para correr ansible y docker en la maquina virtual
+- Estructura archivos compose: carpeta donde estan todos los archivos necesarios para desplegar aplicacion con docker compose.
 
-
-- Crear un repositorio en Github con todos los archivos necesarios para crear la infraestructura virtual y un README file con la documentación para replicar el escenario y un diagrama que explique el flujo.
  
