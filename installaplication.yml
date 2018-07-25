@@ -1,0 +1,11 @@
+---
+
+- hosts: localhost
+  become: true
+  tasks:
+
+#  - name: create directory for the proyect
+#    shell: cd /home/vagrant/sharedfiles/compose
+
+  - name: levantar la aplicacion
+    shell: docker-compose up

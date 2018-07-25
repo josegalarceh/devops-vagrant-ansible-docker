@@ -1,0 +1,29 @@
+---
+
+- hosts: localhost
+  become: true
+  tasks:
+  - name: Install list of packages
+    apt:
+      name: "{{ item }}"
+      state: present
+      update_cache: yes
+    with_items:
+      - apt-transport-https
+      - ca-certificates
+      - curl
+      - software-properties-common
+
+  - name: add docker gpg key
+    shell: curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+  - name: add fingerprint
+    shell: sudo apt-key fingerprint 0EBFCD88
+
+  - name: add repository
+    shell: sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+
+  - name: update
+    shell: sudo apt-get update
+
+  - name: install docker
+    shell: sudo apt-get install -y docker-ce
