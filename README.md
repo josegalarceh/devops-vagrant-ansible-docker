@@ -28,4 +28,7 @@ La estructura de los archivos para reproducir el escenario estan en la imagen "E
 - Carpeta compose: Carpeta donde estan todos los archivos necesarios para desplegar aplicacion con docker compose.
 
 Se deben descargar todos los archivos segun la estructura anterior descrita. 
+
+Para poder ver la aplicacion, al final deberiamos poder meternos a un explorador dentro del notebook a la url: 192.168.100.101:5000
+Similar a lo de la imagen: "Resultado aplicacion.png"
  
