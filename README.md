@@ -21,4 +21,8 @@ Para dar respuesta a la segunda parte:
 - Teniendo todos los archivos de configuracion, con ansible gatillaré la ejecucion de docker compose.
 - Al gatillar la ejecucion de docker compose desplegaré una aplicacion web con phython a partir de una imagen docker.
 
+La estructura de los archivos para reproducir el escenario esta en la imagen:
 
+
+- Crear un repositorio en Github con todos los archivos necesarios para crear la infraestructura virtual y un README file con la documentación para replicar el escenario y un diagrama que explique el flujo.
+ 
