@@ -22,10 +22,10 @@ Para dar respuesta a la segunda parte:
 7) Teniendo todos los archivos de configuracion, con ansible gatillaré la ejecucion de docker compose.
 8) Al gatillar la ejecucion de docker compose desplegaré una aplicacion web con phython a partir de una imagen docker.
 
-La estructura de los archivos para reproducir el escenario estan en las imagenes:
-- Estructura archivos vagrant: Carpeta principal donde van alojados todos los archivos.
-- Estructura archivos sharedfiles: Carpera compartida, donde se alojan los archivos necesarios para correr ansible y docker en la maquina virtual
-- Estructura archivos compose: carpeta donde estan todos los archivos necesarios para desplegar aplicacion con docker compose.
+La estructura de los archivos para reproducir el escenario estan en la imagen "Estructura archivos.png", pero basicamente se ordena de la siguiente forma
+- Carpeta vagrant: Carpeta principal donde van alojados todos los archivos.
+- Carpeta sharedfiles: Carpera compartida, donde se alojan los archivos necesarios para correr ansible y docker en la maquina virtual. Esta carpeta se comparte al momento de crear la maquina virtual con vagrant y permite disponibilizar los codigos dentro de la maquina de forma rapida.
+- Carpeta compose: Carpeta donde estan todos los archivos necesarios para desplegar aplicacion con docker compose.
 
 Se deben descargar todos los archivos segun la estructura anterior descrita. 
  
